@@ -8,7 +8,7 @@ variable "aws_region" {
 variable "aws_account_id" {
     description = "The AWS Accound ID"
     type = string
-    default = "500176724247"
+    default = "000000000000"
 }
 
 variable "lambda_function_name" {
@@ -51,7 +51,7 @@ variable "db_username" {
 variable "db_password" {
   description = "The password for the database"
   type        = string
-  default     = "93i0Cz8HyvO6o39#gofo~,+o>Pf08]$Z"
+  default     = "admin123"
 }
 
 variable "db_engine" {
@@ -63,7 +63,7 @@ variable "db_engine" {
 variable "db_host" {
   description = "The host of the database"
   type        = string
-  default     = "demodb-1.c180e280qan1.ap-southeast-1.rds.amazonaws.com"
+  default     = "hackme.c180e280qan1.ap-southeast-1.rds.amazonaws.com"
 }
 
 variable "db_port" {
