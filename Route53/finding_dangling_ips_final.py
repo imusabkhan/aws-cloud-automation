@@ -3,12 +3,12 @@ import ipaddress
 
 # Define the account mapping
 account_names = {
-    '774337928902': 'Sandbox',
-    '452625356000': 'Devx',
-    '390572758820': 'Fintech',
-    '924334593285': 'Identity',
-    '662769906594': 'Prod',
-    '256199385484': 'Data'
+    '000000000000': 'myAccount',
+    '000000000000': 'myAccount',
+    '000000000000': 'myAccount',
+    '000000000000': 'myAccount',
+    '000000000000': 'myAccount',
+    '000000000000': 'myAccount'
 }
 
 def get_route53_records():
